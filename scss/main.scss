@@ -9,17 +9,15 @@ html {
 }
 
 body {
-    background-color: #d8d6d6;
     font-family: 'Roboto', sans-serif;
 }
 
-%universal-styles {
+%size-styles {
     width: 240px;
     margin: 0 auto;
 }
 
 .section__wrapper {
-    background-color: #fff;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -66,10 +64,10 @@ body {
         }
         .row__image__div--first {
             text-align: left;
-            @extend %universal-styles;
+            @extend %size-styles;
         }
         .row__image__div--second {
-            @extend %universal-styles;
+            @extend %size-styles;
             i {
                 background: linear-gradient(120deg, rgb(253, 220, 74), rgb(252, 110, 34));
                 background-clip: text;
@@ -84,7 +82,7 @@ body {
             color: white;
             border-radius: 3%;
             h2, p, i {
-                @extend %universal-styles;
+                @extend %size-styles;
             }
         }
     }
@@ -166,7 +164,7 @@ h2 {
         .row__button {
             display: none;
         }
-        %universal-styles {
+        %size-styles {
             width: 360px;
         }
     }
@@ -201,7 +199,7 @@ h2 {
     section {
         padding-top: 45px;
     }
-    %universal-styles {
+    %size-styles {
         width: 90vw;
     }
 }
